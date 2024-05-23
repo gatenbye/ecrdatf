@@ -3731,7 +3731,6 @@ textarea.form-control-lg {
 .nav {
   --bs-nav-link-padding-x: 1rem;
   --bs-nav-link-padding-y: 0.5rem;
-  --bs-nav-link-font-size: calc(1.255rem + 0.06vw);
   --bs-nav-link-font-weight: ;
   --bs-nav-link-color: #2D608E;
   --bs-nav-link-hover-color: #F8A71B;
@@ -3741,11 +3740,6 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-}
-@media (min-width: 1200px) {
-  .nav {
-    --bs-nav-link-font-size: 1.3rem;
-  }
 }
 
 .nav-link {
@@ -3872,8 +3866,8 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
-  --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
+  --bs-navbar-color: #2D608E;
+  --bs-navbar-hover-color: #F8A71B;
   --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
   --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
   --bs-navbar-brand-padding-y: 0.3125rem;
@@ -3925,7 +3919,6 @@ textarea.form-control-lg {
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
-  --bs-nav-link-font-size: calc(1.255rem + 0.06vw);
   --bs-nav-link-font-weight: ;
   --bs-nav-link-color: var(--bs-navbar-color);
   --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
@@ -3935,11 +3928,6 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-}
-@media (min-width: 1200px) {
-  .navbar-nav {
-    --bs-nav-link-font-size: 1.3rem;
-  }
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color: var(--bs-navbar-active-color);
